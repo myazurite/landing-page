@@ -1,0 +1,24 @@
+.health {
+  padding: 2rem 0;
+  .healthWrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    padding: 0;
+    .hBlock {
+      width: 48%;
+      img {
+        width: 100%;
+        aspect-ratio: 1.6;
+        object-fit: cover;
+      }
+      .bottext {
+        text-align: center;
+        padding: 0.8rem;
+        background: $button-color;
+        border-radius: 0.5rem;
+        font-weight: $semibold;
+      }
+    }
+  }
+}

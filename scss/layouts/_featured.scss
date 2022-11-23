@@ -1,0 +1,42 @@
+.featured {
+  padding: 3rem 0;
+  background: $primary-color;
+  .featuredWrapper {
+    width: 55%;
+    margin: auto;
+  }
+  .toptext {
+    text-align: center;
+    padding: 1rem 0;
+    width: 70%;
+    margin: auto;
+  }
+  span {
+    color: $button-color;
+    font-size: 1rem;
+    font-weight: $semibold;
+    padding: 1rem 0;
+  }
+  p {
+    color: $secondary-color;
+    font-size: 0.8rem;
+    padding: 0.5rem 0;
+    margin: auto;
+  }
+  .f_block {
+    display: flex;
+    .f_card {
+      flex: 1;
+      padding: 0 1rem;
+      max-width: 33.33%;
+      .toptext {
+        width: 100%;
+      }
+      .blockImg {
+        aspect-ratio: 1;
+        border: 2px $button-color solid;
+        border-radius: 50%;
+      }
+    }
+  }
+}

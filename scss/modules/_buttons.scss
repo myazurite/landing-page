@@ -1,0 +1,19 @@
+.buttons {
+  border: 0 solid;
+  border-radius: 2rem;
+  width: fit-content;
+  background-color: $button-color;
+  color: black;
+}
+
+.__navbar {
+  .buttons {width: 6rem;}
+}
+
+.buttonWrapper {
+  .bannerButton {
+    margin: auto;
+    padding: 0.3rem 2rem;
+    font-weight: $semibold;
+  }
+}

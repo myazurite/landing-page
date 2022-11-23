@@ -1,0 +1,40 @@
+.banner {
+  width: 100%;
+  background: url("../../images/house.jpg") center;
+  background-attachment: fixed;
+  //background: $primary-color;
+  background-size: cover;
+  padding: 2rem 0;
+  a {text-decoration: none}
+  .banner_text {
+    width: 50%;
+    text-align: center;
+    .toptext {
+      font-family: 'Roboto', sans-serif;
+      color: $secondary-color;
+      .text_bg {
+        font-size: 2.4rem;
+        font-weight: $bold;
+      }
+      #banner_reg {
+        font-weight: $heavy;
+        margin: 0.6rem 0 0 0;
+        color: hsl(47, 100%, 51%);
+      }
+    }
+    .bottext {
+      #curve_text {
+        font-family: "ambiance BT", sans-serif;
+        font-size: 4rem;
+        font-weight: $regular;
+      }
+    }
+    .bottext, p {color: $secondary-color;}
+    p {
+      text-align: left;
+      padding: 1rem 0 2rem 0;
+      font-size: 0.8rem;
+      line-height: 170%;
+    }
+  }
+}

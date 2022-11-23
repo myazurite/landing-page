@@ -1,0 +1,44 @@
+.curriculum {
+  width: 100%;
+  padding: 2rem 0 4.5rem 0;
+  .curWrapper {
+    text-align: center;
+    justify-content: center;
+    width: 70%;
+    .toptext {
+      font-size: 1.3rem;
+      font-weight: $semibold;
+      color: $primary-color;
+    }
+    .bottext {
+      font-size: 0.8rem;
+      padding: 0 0 1.5rem 0;
+    }
+    .imgWrapper {
+      display: flex;
+      .toptext, .bottext {color: $base-font-color}
+    }
+    .curBlock {
+      flex: 1;
+      padding: 0.5rem;
+      .toptext {
+        padding: 0.8rem 0;
+        background-color: $button-color;
+        font-size: 1rem;
+      }
+      img {
+        max-width: 100%;
+        max-height: 100%;
+        aspect-ratio: 1.3;
+        margin-top: 2px;
+      }
+      .toptext, img {border-radius: 0.5rem;}
+      .bottext {
+        text-align: left;
+        padding: 0.1rem 0.2rem 1rem 0.2rem;
+        box-shadow: 0 1px 0 #888, 0 1px 2px #888;
+        border-radius: 0 0 0.5rem 0.5rem;
+      }
+    }
+  }
+}
